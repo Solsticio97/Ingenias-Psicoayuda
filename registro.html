@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Qwitcher+Grypen&display=swap" rel="stylesheet">
+  <title>Ayuda psicologica</title>
+</head>
+
+<body id="fuente">
+
+
+
+  <header class="miestilo">
+    <div class="logo">
+      <img src="./imagenes/nombre1oscuro.png" alt="" width="200" height="70">
+    </div>
+    <div class="menu">
+      <nav>
+        <a class="btnMenu" href="index.html">Inicio</a>
+        <a class="btnMenu" href="profesionales.html">Profesionales</a>
+        <a class="btnMenu" href="ubicacion.html">Ubicacion</a>
+
+        <div class="dropdown">
+          <button><img style="filter: invert(1)" src="./imagenes/user-circle-regular-24.png" alt="usuario" />Usuario </button>
+          <div>
+            <a href="iniciarsesion.html">Iniciar sesion</a>
+            <a href="registro.html">Registrarme</a>
+            <a href="perfil.html">Mi perfil</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <main id="main">
+    <div class="imagenLogin">
+      <img src="./imagenes/login.svg" alt="login" />
+    </div>
+    <div class="contenedor">
+      <h3>Crear perfil</h3>
+
+      <form action="#" method="">
+
+        <div class="customSelect">
+          <select name="opcion">
+            <option selected disabled>Soy</option>
+            <option value="consultante">Consultante</option>
+            <option value="psicologo">Psicologo</option>
+          </select>
+        </div>
+
+        <label for="nombre">
+          <input type="text" name="nombre" placeholder="Nombre" required />
+        </label>
+
+        <label for="apellido">
+          <input type="text" name="apellido" placeholder="Apellido" required />
+        </label>
+
+        <label for="correo">
+          <input type="email" name="correo" placeholder="Email" required />
+        </label>
+
+        <label for="clave">
+          <input type="password" name="clave" placeholder="Contraseña" required />
+        </label>
+
+        <label for="ciudad">
+          <input type="text" name="ciudad" placeholder="Ciudad" required />
+        </label>
+
+        <div class="checkbox">
+          <label for="checkbox" class="checkbox2">
+            <input type="checkbox" name="checkbox" />
+            <p>Acepto las condiciones de uso y la Política de Proteccion de Datos.</p>
+          </label>
+        </div>
+
+        <div class="botones">
+          <input class="submit_boton" type="submit" value="Enviar" />
+        </div>
+      </form>
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="picture_footer">
+      <img src="./imagenes/nombre1oscuro.png" alt="psicoayuda_logo" />
+    </div>
+
+    <div class="footerMenu">
+      <ul>
+        <li class="menuFooter"><a href="">Quienes somos</a></li>
+        <li class="menuFooter"><a href="">Condiciones legales</a></li>
+        <li class="menuFooter"><a href="">Politica de privacidad</a></li>
+        <li class="menuFooter"><a href="">Politica de cookies</a></li>
+      </ul>
+    </div>
+
+    <div class="redes_sociales_container">
+      <h5>Seguinos: </h5>
+      <div class="redesSociales">
+        <a href="https://www.instagram.com"><img src="./imagenes/instagram.png" alt="instagram" /></a>
+        <a href="https://www.facebook.com"><img src="./imagenes/facebook.png" alt="facebook" /></a>
+        <a href=""><img src="./imagenes/gmail.png" alt="gmail" /></a>
+      </div>
+    </div>
+
+    <div class="mail_container">
+      <div class="newsletter" style="display: flex">
+        <span>Recibi en tu mail notificaciones y actualizaciones sobre psicologos en tu zona</span>
+      </div>
+      
+      <div class="mail">
+        <input type="mail" name="mail" id="contacto" />
+        <button type="submit"><img src="./imagenes/mail2.png" alt="" /></button>
+      </div>
+    </div>
+
+</footer>
+  <div style="background-color: #4a5063; font-size: 11px; color: white; text-align: center">
+    <span>© 2022 Psicoayuda. Todos los Derechos Reservados.</span>
+  </div>
+
+</body>
+
+<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
+</html>

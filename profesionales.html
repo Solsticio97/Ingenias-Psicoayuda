@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Qwitcher+Grypen&display=swap" rel="stylesheet">
+    <title>Ayuda psicologica</title>
+</head>
+
+<body id="fuente">
+    <header class="miestilo">
+        <div class="logo">
+            <img src="./imagenes/nombre1oscuro.png" alt="" width="200" height="70">
+        </div>
+        <div class="menu">
+            <nav>
+              <a class="btnMenu" href="index.html">Inicio</a>
+              <a class="btnMenu" href="profesionales.html">Profesionales</a>
+              <a class="btnMenu" href="ubicacion.html">Ubicacion</a>
+      
+              <div class="dropdown">
+                <button><img style="filter: invert(1)" src="./imagenes/user-circle-regular-24.png" alt="usuario" />Usuario </button>
+                <div>
+                  <a href="iniciarsesion.html">Iniciar sesion</a>
+                  <a href="registro.html">Registrarme</a>
+                  <a href="perfil.html">Mi perfil</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+    </header>
+    <main id="inicio" class="miestilo">
+        <h1 class="medio">"De nuestras vulnerabilidades, vienen nuestras fortalezas"</h1>
+        <h3 class="costado">-Sigmund Freud</h3>
+        <hr>
+        <h2 class="medio2">Nuestros de profesionales </h2>
+        <section id="psicologos" class="par">
+
+            <div class="psicologo">
+                <div>
+                    <img src="./imagenes/avatar1.jpg" alt="ana gimenez">
+                    <p class="strong"> Ana Gimenez</p>
+                    <img src="./imagenes/5estrellitas.jpeg" alt="">
+                    <p class="strong"> Mis especialidades:</p>
+                    <p>Trastornos alimenticios, depresión, terapias de pareja,ansiedad, crisis existenciales,
+                        enfermedades autoinmunes, abuso, situaciones traumáticas, orientación a padres. Niños y
+                        adolescentes, coach ontologico</p>
+                </div>
+            </div>
+            <div class="psicologo">
+                <div>
+                    <img src="./imagenes/avatar3.jpg" alt="jose rodriguez">
+                    <p class="strong"> José Rodriguez</p>
+                    <img src="./imagenes/4estrellitas.jpeg" alt="">
+                    <p class="strong"> Mis especialidades:</p>
+                    <p>Terapia individual de jóvenes y adultos (mayores a 18 años). Solo sesiones por videollamada, de
+                        momento. Las sesiones duran un tiempo aproximado de 45 minutos (puede variar según la dinámica
+                        con cada paciente).</p>
+                </div>
+            </div>
+            <div class="psicologo">
+                <div>
+                    <img src="./imagenes/avatar2.jpg" alt="sandra andrade">
+                    <p class="strong"> Sandra Andrade</p>
+                    <img src="./imagenes/4estrellitas.jpeg" alt="">
+                    <p class="strong"> Mis especialidades:</p>
+                    <p>Trastornos de ansiedad , depresion, duelo, Fertilidad, sexualidad, estress post
+                        traumático,ataques de pánico, orientación vacacional, traumas infantiles, búsqueda de sentido,
+                        terapia de pareja,
+                        trabajo en la autoestima y amor propio.</p>
+                </div>
+            </div>
+            <div class="psicologo">
+                <div>
+                    <img src="./imagenes/avatar4.jpg" alt="ariel piñero">
+                    <p class="strong"> Ariel Piñero</p>
+                    <img src="./imagenes/5estrellitas.jpeg" alt="">
+                    <p class="strong"> Mis especialidades:</p>
+                    <p>Ansiedad, depresión, stress, burn-out, bullying, mobbing laboral, trastornos de la alimentación,
+                        anorexia y bulimia, trastornos psicosomáticos, síndrome de intestino irritable. Terapia de
+                        reconciliación. Mindfulness.</p>
+                </div>
+            </div>
+            <br>
+
+
+        </section>
+        <section class="impar" id="cita">
+            <form action="">
+                <fieldset class="align-psicologo">
+                    <h2>Agenda tu cita</h2>
+                    <div class="cajaPsicologo">
+                        <label for="">Selecciona tu estilo de consulta</label>
+                        <select name="Modalidad" id="">
+                            <option value="0" selected></option>
+                            <option value="1">Presencial</option>
+                            <option value="2">Virtual</option>
+                        </select>
+                    </div>
+                    <div class="cajaPsicologo">
+                        <label for="">Motivo de la cita</label>
+                        <input type="motivo" placeholder="Ingrese el motivo de tu cita">
+                    </div>
+                    <div class="cajaPsicologo">
+                        <label for=""> Psicologo</label>
+                        <select name="" id="">
+                            <option value="" selected> Selecciona Profesional</option>
+                            <option value="1">Ana Gimenez</option>
+                            <option value="2">José Rodriguez</option>
+                            <option value="3">Sandra Andrade</option>
+                            <option value="4">Ariel Piñero</option>
+                        </select>
+                    </div>
+                    <div class="cajaPsicologo">
+                        <button class="boton">Enviar</button>
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="picture_footer">
+          <img src="./imagenes/nombre1oscuro.png" alt="psicoayuda_logo" />
+        </div>
+  
+        <div class="footerMenu">
+          <ul>
+            <li class="menuFooter"><a href="">Quienes somos</a></li>
+            <li class="menuFooter"><a href="">Condiciones legales</a></li>
+            <li class="menuFooter"><a href="">Politica de privacidad</a></li>
+            <li class="menuFooter"><a href="">Politica de cookies</a></li>
+          </ul>
+        </div>
+  
+        <div class="redes_sociales_container">
+          <h5>Seguinos: </h5>
+          <div class="redesSociales">
+            <a href="https://www.instagram.com"><img src="./imagenes/instagram.png" alt="instagram" /></a>
+            <a href="https://www.facebook.com"><img src="./imagenes/facebook.png" alt="facebook" /></a>
+            <a href=""><img src="./imagenes/gmail.png" alt="gmail" /></a>
+          </div>
+        </div>
+  
+        <div class="mail_container">
+          <div class="newsletter" style="display: flex">
+            <span>Recibi en tu mail notificaciones y actualizaciones sobre psicologos en tu zona</span>
+          </div>
+          
+          <div class="mail">
+            <input type="mail" name="mail" id="contacto" />
+            <button type="submit"><img src="./imagenes/mail2.png" alt="" /></button>
+          </div>
+        </div>
+  
+    </footer>
+    <div style="background-color: #4a5063; font-size: 11px; color: white; text-align: center">
+      <span>© 2022 Psicoayuda. Todos los Derechos Reservados.</span>
+    </div>
+    
+</body>
+
+</html>
