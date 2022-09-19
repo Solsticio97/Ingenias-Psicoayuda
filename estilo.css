@@ -183,8 +183,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
 }
 .proPrep {
     display: flex;
@@ -203,6 +203,7 @@ header {
     justify-content: center;
     width: 100%;
     height: 100%;
+    margin: 1rem;
 }
 .menIzqPerf {
     display: flex;   
@@ -233,8 +234,8 @@ header {
 }
 .profPerf {
     display: flex;
-    width: 60%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     font-size: 0.5rem;
     justify-content: space-around;
     flex-direction: column;
@@ -242,7 +243,7 @@ header {
     padding: 1rem;
 }
 .profPPerf {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 .psicoPerf {
     display: flex;
@@ -255,6 +256,8 @@ header {
     padding: 2rem;
     height: 50%;
     display: flex;
+    
+    align-items: center;
 }
 .centerP {
     display: flex;
@@ -278,7 +281,7 @@ header {
 }
 .calendario {
 
-    width: 50%;
+    width: 20rem;
     height: 50%;
 }
 .diaSemana {
@@ -367,6 +370,7 @@ ul,li {
 }
 /*grafico perfil*/
 svg {
+    margin: 2rem;
     border: 1px solid #000000;
 
 }
@@ -379,8 +383,11 @@ rect:hover {
     fill: rgb(209, 95, 18);
 }
 .grafPerf {
-    height: 50%;
-    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -1125,7 +1132,34 @@ footer {
         display: flex;
         flex-direction: column-reverse;
     }
-}
+    /*perfil*/
+    .totalPerf{ 
+        margin: 0.2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .areaDerPerf{
+        flex-direction: column;
+        align-items: center;
+    }
+    .supDerPerf{
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+    .profesPerf{
+        
+    flex-direction: column;
+    justify-content: space-evenly;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .inferDerPerf{
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+    }
+
 
 
 
