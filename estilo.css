@@ -221,8 +221,6 @@ header {
     height: 100%;
     width: 73%;
     margin-right: 2%;
-    background-color: #ffffff3a;
-    border-radius: 20px;
     padding: 2rem;
     flex-direction: row;
     justify-content: space-evenly;
