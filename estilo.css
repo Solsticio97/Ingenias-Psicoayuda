@@ -416,6 +416,7 @@ rect:hover {
 }
 
 /*profesionales*/
+
 .medio {
   text-align: center;
   color: #11296b;
@@ -475,7 +476,168 @@ rect:hover {
   align-items: center;
   padding: 1rem;
 }
+/*prof nuevo*/
+*index */
+.index-inicio {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
 
+.index-inicio-img{
+    width: 100%;
+}
+
+.index-inicio-img img{
+   width: 100%;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.index-inicio h1 {
+    color: #11296B;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.index-inicio-texto {
+font-size: 15px;
+}
+
+.index-inicio-a{
+    background-color: #11296B;
+    border-radius: 20px;
+    border: 1px solid gray;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    width: 50%;
+    height: 41px;
+    margin: 13px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-inicio-a:hover {
+    background-color: white;
+    color: #11296B;
+    transition: 0.2s;
+    border: 1px solid #11296B;
+}
+
+.swiper-text {
+    align-items: flex-start;
+    padding: 25px;
+}
+
+.swiper-description{
+    margin-top: 74px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: #11296b;
+    margin-bottom: 15px;
+}
+
+.swiper {
+    width: 85%;
+    height: 400px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgb(235 235 235 / 80%);
+    padding: 2px;
+    height: 350px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-radius: 25px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.psicologo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swiper-img {
+    width: 122px;
+}
+
+.swiper-text h5{
+    font-size: 15px;
+}
+
+.swiper-text p {
+    font-size: 12px;
+}
+
+.swiper-text-a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    background-color: #11296B;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.swiper-text-a:hover {
+    color: white;
+}
+
+.intro{
+    display: flex;
+    padding: 5rem
+
+}
+.h1i {
+    padding: 1rem;
+    color: #11296b;
+}
+
+.h3i {
+    color: #25a83f;
+}
+
+.h1i {
+    position: relative;
+    text-align: center;
+    color: #11296B;
+    font-size: 5rem;
+    font-weight: bold;
+
+
+}
 /*login y registrarse*/
 
 #main {
