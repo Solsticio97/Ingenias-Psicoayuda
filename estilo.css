@@ -197,13 +197,13 @@ header {
     text-align: center;
 }
 .totalPerf {
+    margin: 0;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
     width: 100%;
     height: 100%;
-    margin: 1rem;
 }
 .menIzqPerf {
     display: flex;   
@@ -948,22 +948,28 @@ input:focus {
 
 /* FOOTER */
 footer {
+
+
     background-color: #4a5063;
-    padding: 30px;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-left: 5rem;
+   padding-right: 5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .picture_footer {
-    height: 2.2em;
+    height: 6rem;
+    width: 8rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     cursor: pointer;
 }
 
-.footerMenu ul {
+/* .footerMenu ul {
     display: flex;
     list-style: none;
     font-size: 12px;
@@ -981,7 +987,7 @@ footer {
     opacity: 0.7;
     padding: 0;
     background: none;
-}
+} */
 
 .redes_sociales_container {
     color: white;
@@ -1040,10 +1046,11 @@ footer {
 }
 
 .copiFooter {
-    font-size: 60%;
+    background-color: #4a5063;
+    font-size: 11px;
     color: white;
-    text-align: center;
-    margin-top: 20px;
+    text-align: center
+
 }
 
 @media (max-width: 785px) {
@@ -1129,6 +1136,10 @@ footer {
     .indexProfesionales{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .picture_footer{
+        width: 7rem;
+        height: 4rem;
     }
     /*perfil*/
     .totalPerf{ 
