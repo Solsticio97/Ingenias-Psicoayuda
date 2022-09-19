@@ -1340,6 +1340,16 @@ footer {
     align-items: center;
     margin: 1rem;
   }
+  .containerP{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    margin: 1rem;
+  }
+  .containerP img{
+    width: auto;
+  }
 }
 
 @media (max-width: 400px) {
@@ -1484,5 +1494,15 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 1rem;
+  }
+  .containerP{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    margin: 1rem;
+  }
+  .containerP img{
+    width: auto;
   }
 }
