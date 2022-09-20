@@ -191,8 +191,14 @@ header {
   line-height: 2rem;
 }
 
+.h4DivPerf{
+  text-align: left;
+}
 .h4P {
-  text-align: center;
+  text-align: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  
 }
 
 .totalPerf {
