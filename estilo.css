@@ -1430,7 +1430,7 @@ footer {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   header {
     flex-wrap: wrap;
     flex-direction: column;
@@ -1582,6 +1582,9 @@ footer {
   }
   .containerP img{
     width: auto;
+  }
+  .calendario{
+    padding: 1rem;
   }
   /*Profesionales*/
   .medio {
