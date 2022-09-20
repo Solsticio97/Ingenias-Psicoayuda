@@ -1383,19 +1383,21 @@ footer {
     flex-direction: column;
     align-items: center;
     margin: 1rem;
+    padding: 0;
   }
 
   .profesPerf {
     flex-direction: column;
     justify-content: space-evenly;
     margin: 1rem;
-    padding: 1rem;
+    padding: 0;
   }
 
   .inferDerPerf {
     flex-direction: column;
     align-items: center;
     margin: 1rem;
+    padding: 0;
   }
   .containerP{
     display: flex;
