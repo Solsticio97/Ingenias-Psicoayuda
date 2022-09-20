@@ -424,7 +424,7 @@ rect:hover {
   font-size: 10vh;
 }
 
-.costado {
+.costado { 
   text-align: right;
   color: #11296B;
   font-family: 'Tangerine', cursive;
@@ -1406,6 +1406,25 @@ footer {
   .containerP img{
     width: auto;
   }
+  /*Profesionales*/
+  .medio {
+    font-size:6vh;
+  }
+
+  .costado {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .turno {
+    justify-content: flex-start;
+    width: 55vh;
+    align-items: stretch;
+  }
+
+  .swiper-slide{
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 400px) {
@@ -1560,5 +1579,24 @@ footer {
   }
   .containerP img{
     width: auto;
+  }
+  /*Profesionales*/
+  .medio {
+    font-size:6vh;
+  }
+
+  .costado {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .turno {
+    justify-content: flex-start;
+    width: 55vh;
+    align-items: stretch;
+  }
+
+  .swiper-slide{
+    width: 100% !important;
   }
 }

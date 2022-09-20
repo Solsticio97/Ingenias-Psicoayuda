@@ -576,9 +576,7 @@
 
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        slidesPerGroup: 3,
+  
         loop: true,
         loopFillGroupWithBlank: true,
         pagination: {
@@ -588,6 +586,20 @@
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          // when window width is >= 400px
+          400: {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            slidesPerGroup: 1
+          },
+          // when window width is >= 670px
+          670: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3
+          }
         },
       });
     </script>
