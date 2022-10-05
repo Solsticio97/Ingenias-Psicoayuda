@@ -483,6 +483,8 @@ rect:hover {
 }
 
 .cajaPsicologo {
+  display: flex;
+  flex-direction: column;
   padding: 0.5rem;
   font-size: medium ;
 }
@@ -499,7 +501,7 @@ rect:hover {
   font-size: 18px;
   background: rgba(217, 243, 228, 0.8);
   padding: 2px;
-  height: 320px;
+  height: 420px;
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -533,7 +535,29 @@ rect:hover {
   box-shadow: 2px 2px rgb(168, 164, 164);
 
 }
-.turnocuadro{
+.boton3 {
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #f1b3a58f;
+  border: none;
+  font-size: 15px;
+  padding: 8px;
+  width: 350px;
+  margin: 5px;
+  color: rgb(75, 75, 75);
+  cursor: pointer;
+  box-shadow: 2px 2px rgb(168, 164, 164);
+
+}
+.btnPresup{
+  margin-top: 2rem;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.turnoCuadro{
   display: flex;
   align-content: center;
   
@@ -1185,7 +1209,20 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /*hace que se quede abajo*/
+  margin-top: auto;
 }
+/*hace que se quede abajo*/
+html {
+  height: 100%;
+}
+/*hace que se quede abajo*/
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
 
 .picture_footer {
   height: 6rem;
