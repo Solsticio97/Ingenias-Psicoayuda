@@ -1651,6 +1651,25 @@ body {
   .swiper-slide{
     width: 100% !important;
   }
+  .opP{
+    font-size:0.5vh;
+  }
+  .opPresupuesto{
+    font-size: 0.7vh;
+    
+  }
+  .tituloPresupuesto{
+    font-size: small;
+   
+  }
+  .boton3 {
+    
+    border-radius: 6px;
+    font-size: 10px;
+    width: 100px;
+    margin: 5px;
+    box-shadow: 2px 2px rgb(168 164 164);
+}
 }
 
 /*PRESUPUESTO*/
@@ -1664,7 +1683,7 @@ body {
   margin: 4rem;
   border-radius: 4rem;
   justify-content: center;
-  width: 40%;
+  width: 60%;
   height: auto;
   position: relative;
 }
