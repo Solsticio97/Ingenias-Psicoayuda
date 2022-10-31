@@ -57,34 +57,36 @@
         </div>
 
         <label for="nombre">
-          <input type="text" name="nombre" placeholder="Nombre" required />
+          <input type="text" name="nombre" placeholder="Nombre" id="nombre" required />
         </label>
 
         <label for="apellido">
-          <input type="text" name="apellido" placeholder="Apellido" required />
+          <input type="text" name="apellido" placeholder="Apellido" id="apellido" required />
         </label>
 
         <label for="correo">
-          <input type="email" name="correo" placeholder="Email" required />
+          <input type="text" name="correo" placeholder="Email" id="email" required />
         </label>
 
         <label for="clave">
-          <input type="password" name="clave" placeholder="Contraseña" required />
+          <input type="text" name="clave" placeholder="Contraseña" id="contrasena" required />
         </label>
 
         <label for="ciudad">
-          <input type="text" name="ciudad" placeholder="Ciudad" required />
+          <input type="text" name="ciudad" placeholder="Ciudad" required id="ciudad"/>
         </label>
 
         <div class="checkbox">
           <label for="checkbox" class="checkbox2">
-            <input type="checkbox" name="checkbox" />
-            <p>Acepto las condiciones de uso y la Política de Proteccion de Datos.</p>
+            <input type="checkbox" name="checkbox" />  
           </label>
+          <div class="botones">
+            <input class="submit_boton" type="submit" value="Politicas de condiciones" />
+          </div>
         </div>
 
         <div class="botones">
-          <input class="submit_boton" type="submit" value="Enviar" />
+          <input class="submit_boton" type="submit" value="Enviar" id="submit" />
         </div>
       </form>
     </div>
@@ -96,14 +98,6 @@
       <img src="./imagenes/nombre1oscuro.png" alt="psicoayuda_logo" />
     </div>
 
-    <!-- <div class="footerMenu">
-      <ul>
-        <li class="menuFooter"><a href="">Quienes somos</a></li>
-        <li class="menuFooter"><a href="">Condiciones legales</a></li>
-        <li class="menuFooter"><a href="">Politica de privacidad</a></li>
-        <li class="menuFooter"><a href="">Politica de cookies</a></li>
-      </ul>
-    </div> -->
 
     <div class="redes_sociales_container">
       <h5>Seguinos: </h5>
@@ -129,9 +123,9 @@
   <div class="copiFooter">
     <span>© 2022 Psicoayuda. Todos los Derechos Reservados.</span>
 </div>
-
+<script src="./js_html/registro.js"></script>
 </body>
 
-<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+
 
 </html>

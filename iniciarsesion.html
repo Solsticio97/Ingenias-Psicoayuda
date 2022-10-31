@@ -43,18 +43,19 @@
     <div class="contenedor">
       <h3>Iniciar Sesion</h3>
 
-      <form action="" method="">
+      <form action="" method="" id="FormInicio">
         <label for="email">
           <input 
-          type="email" 
+          type="text" 
           name="email" 
           id="email" 
+          value=""
           required 
           placeholder="Email" />
         </label>
 
         <label for="password">
-          <input type="password" name="password" id="password" required placeholder="Contraseña" />
+          <input type="text" name="password" id="password" value="" required placeholder="Contraseña" />
         </label>
 
         <div class="opciones">
@@ -69,7 +70,7 @@
         </div>
 
         <div class="botones">
-          <button type="submit" class="submit_boton">Iniciar</button>
+          <button class="submit_boton" id="submit" >Iniciar</button>
         </div>
         <div class="registro-link">
           <p> ¿Aun no tienes cuenta? </p>
@@ -84,7 +85,7 @@
     <div class="picture_footer">
       <img src="./imagenes/nombre1oscuro.png" alt="psicoayuda_logo" />
     </div>
-
+    <script src="./js_html/iniciarsesion.js"></script>
     <!-- <div class="footerMenu">
       <ul>
         <li class="menuFooter"><a href="">Quienes somos</a></li>
