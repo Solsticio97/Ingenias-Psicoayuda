@@ -22,15 +22,12 @@ let boton = document.getElementById("submit")
     console.log("El email ingresado es ", email);
     console.log("La contrasena ingresada es ",password);
     usuariosObj.push(new Usuario({email, password}))
-   
+    let resultado= document.createElement('div');
+    resultado.innerHTML = "<h4> Bienvenido/a a la pagina de PsicoAyuda " + email + "! </h4>"
+    document.body.appendChild(resultado);
+    let padre2 = document.getElementById("padre").getElementsByTagName('div')[1];
+    document.getElementById('padre').insertBefore(resultado, padre2);
    
  }
 
-console.log("Localstorage: ", localStorage);
-console.log("typeof de Localstorage: ", typeof localStorage);
 
-const guardarLocal = () => { localStorage.setItem("Usuario ingresado", nuevoUsuario) };
-
-guardarLocal("listaUsuarios", JSON.stringify(nuevoUsuario))
-
-const UsuariosAlmacenados = JSON.parse(localStorage.getItem(Usuario));

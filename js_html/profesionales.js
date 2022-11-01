@@ -53,3 +53,33 @@ localStorage.setItem("profesionalesObj", enJSON)
 
 const almacenados = JSON.parse(localStorage.getItem("listaprofesionales"));
 const profesionales1 = [];
+
+
+let boton = document.getElementById("submit")
+ boton.addEventListener("click", respuestaClick)
+ function respuestaClick(e){
+    e.preventDefault();
+    let motivo = document.getElementById('motivo').value
+    console.log(motivo);
+    let listaPsicologo = document.getElementById("listaPsicologo");
+    let indiceSeleccionado = listaPsicologo.selectedIndex;
+    let opcionSeleccionada = listaPsicologo.options[indiceSeleccionado];
+    let valorSeleccionado = opcionSeleccionada.value;
+    console.log(valorSeleccionado);
+    let modalidad= document.getElementById("modalidad");
+    let indiceSelect = modalidad.selectedIndex;
+    let opcionSelect = modalidad.options[indiceSelect];
+    let valorSelect = opcionSelect.value;
+    console.log(valorSelect);
+    var dateControl = document.querySelector('input[type="date"]');
+    console.log(dateControl.value);
+    let fechaElegida = dateControl.value
+    var timeControl = document.querySelector('input[type="time"]');
+    console.log(timeControl.value);
+    let horaElegida = timeControl.value;
+    let resultado= document.createElement('div');
+    resultado.innerHTML = "<h4> Se ha agendado correctamente su cita " + valorSelect +" "+"con el psicologo/a "+ " " + valorSeleccionado+ " "+ "el día " + " " + fechaElegida + " " + "a las " + " " + horaElegida + " " +" horas" + " " + "con el motivo: " + " " + motivo + "</h4>"
+    document.body.appendChild(resultado);
+    let padre1 = document.getElementById("padre").getElementsByTagName('div')[1];
+    document.getElementById('padre').insertBefore(resultado, padre1);
+ }

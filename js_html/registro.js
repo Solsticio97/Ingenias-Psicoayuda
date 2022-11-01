@@ -26,14 +26,3 @@ let boton = document.getElementById("submit")
  var usuariosRegistrados = []
 const registroObj = usuariosRegistrados.map(r=> new Registro(r))
 console.log(registroObj);
-var usuariosRegistrados = JSON.parse(localStorage.getItem("datos"))
- console.log("Localstorage: ", localStorage);
- 
- console.log("typeof de Localstorage: ", typeof localStorage);
-
- const guardarLocal = (clave, valor) => { localStorage.setItem(clave, valor) };
- 
- 
- 
- guardarLocal("listaUsuarios", JSON.stringify(registroObj))
- 

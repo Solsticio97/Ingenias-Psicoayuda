@@ -11,7 +11,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
-    <script src="js_html/profesionales.js"></script>
+    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -470,7 +470,9 @@
         </div>
       </section>
       <br />
-      <div class="turnoCuadrado">
+      
+                  <div>
+                    <div class="turnoCuadrado">
         <div class="turno">
           <section class="impar" id="cita">
             <form action="">
@@ -478,64 +480,89 @@
                 <h2 id="agendar">Agenda tu cita</h2>
                 <div class="cajaPsicologo">
                   <label for="">Selecciona tu estilo de consulta</label>
-                  <select name="Modalidad" id="">
-                    <option value="0" selected></option>
-                    <option value="1">Presencial</option>
-                    <option value="2">Virtual</option>
+                  <select name="modalidad" id="modalidad">
+                    <option value="presencial">Presencial</option>
+                    <option value="virtual">Virtual</option>
                   </select>
                 </div>
                 <div class="cajaPsicologo">
                   <label for="">Motivo de la cita</label>
                   <input
-                    type="motivo"
+                    type="text"
                     placeholder="Ingrese el motivo de tu cita"
+                    id="motivo"
                   />
                 </div>
                 <div class="cajaPsicologo">
                   <label for=""> Psicologo</label>
-                  <select name="" id="">
-                    <option value="" selected>Selecciona Profesional</option>
-                    <option value="1">Stephanie Piñeros</option>
-                    <option value="2">Solange Servian</option>
-                    <option value="3">Ariel Borzone</option>
-                    <option value="4">Ana Gimenez</option>
-                    <option value="5">Merida Black</option>
-                    <option value="6">Miguel Del Castillo</option>
-                    <option value="7">Camila Martinez</option>
-                    <option value="8">Agustín Caparroz</option>
-                    <option value="9">Valentina Ruhl</option>
-                    <option value="10">Sol Arnal</option>
-                    <option value="11">Renzo Minini</option>
-                    <option value="12">Yasmin Del Rio</option>
-                    <option value="13">Rodrigo Maza</option>
-                    <option value="14">Mauro Benavidez</option>
-                    <option value="15">Sofia Rojas</option>
-                    <option value="16">Victoria Alturria</option>
-                    <option value="17">Juan José Granados</option>
-                    <option value="18">Milagros Martinez</option>
+                  <select name="" id="listaPsicologo">
+                    <option value="Stephanie Piñeros">Stephanie Piñeros</option>
+                    <option value="Solange Servian">Solange Servian</option>
+                    <option value="Ariel Borzone">Ariel Borzone</option>
+                    <option value="Ana Gimenez">Ana Gimenez</option>
+                    <option value="Merida Black">Merida Black</option>
+                    <option value="Miguel Del Castillo">Miguel Del Castillo</option>
+                    <option value="Camila Martinez">Camila Martinez</option>
+                    <option value="Agustín Caparroz">Agustín Caparroz</option>
+                    <option value="Valentina Ruhl">Valentina Ruhl</option>
+                    <option value="Sol Arnal">Sol Arnal</option>
+                    <option value="Renzo Minini">Renzo Minini</option>
+                    <option value="Yasmin Del Rio">Yasmin Del Rio</option>
+                    <option value="Rodrigo Maza">Rodrigo Maza</option>
+                    <option value="Mauro Benavidez">Mauro Benavidez</option>
+                    <option value="Sofia Rojas">Sofia Rojas</option>
+                    <option value="Victoria Alturria">Victoria Alturria</option>
+                    <option value="Juan José Granados">Juan José Granados</option>
+                    <option value="Milagros Martinez">Milagros Martinez</option>
                   </select>
                 </div>
+                <form name="formulario" method="post" action="/send.php">
+                  <!-- Campo de entrada de fecha -->
+                  Selecciona la fecha deseada:
+                  <input type="date" name="fecha" min="2022-11-01" max="2023-11-01" step="1" />
+                  <!-- Campo de entrada de hora -->
+                  Selecciona la hora deseada:
+                  <input type="time" name="hora" list="listalimitestiempo" step="3600" id="tiempo" />
+              </form>
+              <datalist id="listalimitestiempo">
+          
+                  <option value="09:00">
+                  <option value="10:00">
+                  <option value="11:00">
+                  <option value="12:00">
+                  <option value="13:00">
+                  <option value="14:00">
+                  <option value="15:00">
+                  <option value="16:00">
+                  <option value="17:00">
+                  <option value="18:00">
+          
+              </datalist>
                 <div class="cajaPsicologo">
-                  <button class="boton2">Enviar</button>
-                  
-                  
+                  <button class="boton2" id="submit">Enviar</button>
+                    
+                  </div>
+                  <div id="padre"></div>
                 </div>
               </fieldset>
             </form>
+            
           </section>
+          
         </div>
+        
       </div>
+      
       <div class="btnPresup">
       <a href="presupuesto.html"><input type="submit" class="boton3" value="Presupuesto de Consulta"></a>
       </div>
       <br />
     </main>
     <footer>
-      <div></div>
       <div class="picture_footer">
         <img src="./imagenes/nombre1oscuro.png" alt="psicoayuda_logo" />
       </div>
-
+  
       <!-- <div class="footerMenu">
         <ul>
           <li class="menuFooter"><a href="">Quienes somos</a></li>
@@ -544,40 +571,34 @@
           <li class="menuFooter"><a href="">Politica de cookies</a></li>
         </ul>
       </div> -->
-
+  
       <div class="redes_sociales_container">
-        <h5>Seguinos:</h5>
+        <h5>Seguinos: </h5>
         <div class="redesSociales">
-          <a href="https://www.instagram.com"
-            ><img src="./imagenes/instagram.png" alt="instagram"
-          /></a>
-          <a href="https://www.facebook.com"
-            ><img src="./imagenes/facebook.png" alt="facebook"
-          /></a>
+          <a href="https://www.instagram.com"><img src="./imagenes/instagram.png" alt="instagram" /></a>
+          <a href="https://www.facebook.com"><img src="./imagenes/facebook.png" alt="facebook" /></a>
           <a href=""><img src="./imagenes/gmail.png" alt="gmail" /></a>
         </div>
       </div>
-
+  
       <div class="mail_container">
         <div class="newsletter" style="display: flex">
-          <span
-            >Recibi en tu mail notificaciones y actualizaciones sobre psicologos
-            en tu zona</span
-          >
+          <span>Recibi en tu mail notificaciones y actualizaciones sobre psicologos en tu zona</span>
         </div>
-
+  
         <div class="mail">
           <input type="mail" name="mail" id="contacto" />
-          <button type="submit">
-            <img src="./imagenes/mail2.png" alt="" />
-          </button>
+          <button type="submit"><img src="./imagenes/mail2.png" alt="" /></button>
         </div>
       </div>
+      
     </footer>
     <div class="copiFooter">
       <span>© 2022 Psicoayuda. Todos los Derechos Reservados.</span>
-    </div>
+  </div>
+    
 
+    <script src="js_html/profesionales.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <script>
