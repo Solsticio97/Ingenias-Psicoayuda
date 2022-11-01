@@ -1669,17 +1669,7 @@ body {
   .swiper-slide{
     width: 100% !important;
   }
-  .opP{
-    font-size:0.5vh;
-  }
-  .opPresupuesto{
-    font-size: 0.7vh;
-    
-  }
-  .tituloPresupuesto{
-    font-size: small;
-   
-  }
+
   .boton3 {
     
     border-radius: 6px;
@@ -1687,9 +1677,21 @@ body {
     width: 150px;
     margin: 5px;
     box-shadow: 2px 2px rgb(168 164 164);
+  }
+  
+  .opP{
+    font-size:14px;
+  } 
+  .boton5 {
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: auto;
+    margin: 4px;
+  }
 }
-}
-
 /*PRESUPUESTO*/
 .presupuesto{
   display: flex;
@@ -1701,13 +1703,14 @@ body {
   margin: 4rem;
   border-radius: 4rem;
   justify-content: center;
-  width: 60%;
+  width: 70%;
   height: auto;
   position: relative;
+  box-shadow: 2px 2px rgb(168, 164, 164);
 }
 .opPresupuesto{
   color: #11296b;
-  font-size: 3.5vh;
+  font-size: 25px;
   
 }
 .tituloPresupuesto{
@@ -1722,11 +1725,24 @@ body {
 .opP{
   color: #11296b;
   padding: 0.3rem;
-  font-size:2vh;
+  font-size:18px;
 }
 .pp1{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
+.boton5 {
+  border-radius: 6px;
+  background-color: #f1b3a58f;
+  border: none;
+  font-size: 18px;
+  padding: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+  margin: 4px;
+  color: rgb(75, 75, 75);
+  cursor: pointer;
+  box-shadow: 4px 4px rgb(168, 164, 164);
+}
