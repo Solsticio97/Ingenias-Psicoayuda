@@ -1651,7 +1651,7 @@ body {
   }
   /*Profesionales*/
   .medio {
-    font-size:6vh;
+    font: size 27px;
   }
 
   .costado {
@@ -1660,8 +1660,9 @@ body {
   }
 
   .turno {
-    justify-content: flex-start;
-    width: 55vh;
+    display: flex;
+    justify-content: center;
+    width: 250px;
     align-items: stretch;
   }
 
@@ -1683,7 +1684,7 @@ body {
     
     border-radius: 6px;
     font-size: 10px;
-    width: 100px;
+    width: 150px;
     margin: 5px;
     box-shadow: 2px 2px rgb(168 164 164);
 }
