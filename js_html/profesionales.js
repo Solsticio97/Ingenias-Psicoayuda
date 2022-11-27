@@ -78,7 +78,7 @@ let boton = document.getElementById("submit")
     console.log(timeControl.value);
     let horaElegida = timeControl.value;
     let resultado= document.createElement('div');
-    resultado.innerHTML = "<h4> Se ha agendado correctamente su cita " + valorSelect +" "+"con el psicologo/a "+ " " + valorSeleccionado+ " "+ "el día " + " " + fechaElegida + " " + "a las " + " " + horaElegida + " " +" horas" + " " + "con el motivo: " + " " + motivo + "</h4>"
+    resultado.innerHTML = "<h6> Se ha agendado correctamente su cita " + valorSelect +" "+"con el psicologo/a "+ " " + valorSeleccionado+ " "+ "el día " + " " + fechaElegida + " " + "a las " + " " + horaElegida + " " +" horas" + " " + "con el motivo: " + " " + motivo + "</h6>"
     document.body.appendChild(resultado);
     let padre1 = document.getElementById("padre").getElementsByTagName('div')[1];
     document.getElementById('padre').insertBefore(resultado, padre1);

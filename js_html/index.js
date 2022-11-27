@@ -1,6 +1,6 @@
 //fetch the quotes from the API
 const getQuotes = async () => {
-  const apiUrl = "https://apimocha.com/frases/getAll";
+  const apiUrl = "https://apimocha.com/frasediaria/getall";
   try {
     const response = await fetch(apiUrl);
     quotes = (await response.json()).results;
@@ -21,7 +21,7 @@ const displayQuote = (quote) => {
     quoteText.appendChild(text);
     quoteText.classList.add("quote-text");
     let quoteAuthor = document.createElement("p");
-    var text = document.createTextNode(quote.from ? quote.from : "Unknown");
+    var text = document.createTextNode(quote.from ? quote.from : "Desconocido");
     quoteAuthor.appendChild(text);
     quoteText.classList.add("quote-author");
 
