@@ -6,6 +6,7 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 h1 {
   color: #11296b;
 }
@@ -519,7 +520,7 @@ rect:hover {
   -webkit-align-items: center;
   align-items: center;
   border-radius: 25px;
-  width: 90vh;
+  width: 90%;
   margin: auto;
   
 }
@@ -1172,7 +1173,35 @@ input:focus {
   font-size: 20px;
   font-weight: 600;
 }
+.api{
+  background-image: url("/imagenes/fondo_api.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  width: 50rem;
+  height: 30rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.fraseApi{
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 7rem;
+  
+}
 
+.fraseApi h2{
+  color: #ffffff;
+  font-weight: bold;
+  -webkit-text-stroke: 0.05rem black;
+}
+.fraseApi p{
+  font-size: 1.5rem;
+}
 .inputEmail input {
   width: 350px;
   display: flex;
@@ -1473,6 +1502,10 @@ body {
     width: auto;
   }
   /*Profesionales*/
+  .respPadre{
+    width: 60%;
+    font-size: 1.5rem;
+  }
   .medio {
     font-size:6vh;
   }
@@ -1482,9 +1515,11 @@ body {
     justify-content: space-around;
   }
 
+  
   .turno {
-    justify-content: flex-start;
-    width: 55vh;
+    display: flex;
+    justify-content: center;
+    width: 80%;
     align-items: stretch;
   }
 
