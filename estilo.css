@@ -192,6 +192,7 @@ header {
   width: 50%;
   margin: 2rem;
   line-height: 2rem;
+  padding-left: 3rem;
 }
 
 .h4DivPerf{
@@ -221,8 +222,9 @@ header {
   align-items: center;
   height: 95%;
   width: 23%;
-  margin-left: 2%;
   margin-bottom: 3rem;
+  padding-top: 1.5rem;
+  
 }
 
 .areaDerPerf {
@@ -301,6 +303,8 @@ header {
 .calendario {
   width: 20rem;
   height: 50%;
+  padding-bottom: 5rem;
+  padding-left: 3rem;
 }
 
 .diaSemana {
@@ -329,7 +333,7 @@ header {
   align-items: center;
   height: 95%;
   width: 100%;
-  margin: 2px;
+  
 }
 
 .containerP {
@@ -1691,6 +1695,22 @@ body {
     width: auto;
     margin: 4px;
   }
+  .totalCentrar{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 1rem;
+  }
+  .centrar{
+    padding-top: 2rem;
+  }
+  .calendario{
+    width: 15rem;
+    padding-bottom: 2rem;
+  }
+  .form{
+    width: 20px;
+  }
 }
 /*PRESUPUESTO*/
 .presupuesto{
@@ -1745,4 +1765,63 @@ body {
   color: rgb(75, 75, 75);
   cursor: pointer;
   box-shadow: 4px 4px rgb(168, 164, 164);
+}
+
+.centrar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+ 
+}
+.centrar1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  
+}
+.totalCentrar{
+  display: flex;
+  align-items: center;
+  background-color: #e6f0e3;
+  border-radius: 4rem;
+  
+ 
+}
+.progreso1{
+  padding-left: 2rem;
+  
+}
+.progreso2{
+  padding-left: 2.6rem;
+}
+.progreso3{
+  padding-left: 1.9rem;
+}
+.progreso4{
+  padding-left: 1.5rem;
+}
+.progreso5{
+  padding-left: 2rem;
+}
+.imgP1{
+  border-radius: 100%;
+}
+.strong{
+  font-size: 16px;
+}
+.strong1{
+  font-size: 14px;
+}
+.profInicio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5rem;
+}
+.imgP2{
+  height: 1.2rem;
+  width: auto;
 }
