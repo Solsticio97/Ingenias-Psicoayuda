@@ -1746,6 +1746,26 @@ body {
   .form{
     width: 20px;
   }
+  
+  .fraseApi h2{
+    font-weight: bold;
+    -webkit-text-stroke: 0.02rem black;
+    font-size: 24px;
+  }
+  .fraseApi p{
+    font-size: 20px;
+    
+  }
+  .fraseApi{
+    padding-top: 1rem;
+  }
+  .api{
+    width: 300px;
+    background-image: none;
+    background-color: rgb(175, 188, 222);
+    border-radius: 1.5rem;
+    
+  }
 }
 /*PRESUPUESTO*/
 .presupuesto{
