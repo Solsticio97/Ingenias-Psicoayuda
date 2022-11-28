@@ -1368,6 +1368,11 @@ body {
   color: white;
   text-align: center;
 }
+/*zen*/
+.centro{
+  display: flex;
+  width: 90%;
+}
 
 @media (max-width: 785px) {
   header {
