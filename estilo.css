@@ -1860,3 +1860,15 @@ body {
   height: 1.2rem;
   width: auto;
 }
+/*Zen*/
+.medioz {
+  text-align:center;
+  color: #11296B;
+  font-size: 3vh;
+}
+.zen{
+  text-align: center;
+  font-family: 'Tangerine';
+  font-size: 12vh;
+  margin-top: 2rem;
+}
