@@ -559,9 +559,7 @@ rect:hover {
   text-align: center;
 }
 .boton3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-decoration: none;
   border-radius: 6px;
   background-color: #f1b3a58f;
   border: none;
@@ -572,6 +570,7 @@ rect:hover {
   color: rgb(75, 75, 75);
   cursor: pointer;
   box-shadow: 2px 2px rgb(168, 164, 164);
+  
 
 }
 .btnPresup{
@@ -1371,9 +1370,46 @@ body {
 /*zen*/
 .centro{
   display: flex;
-  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  
 }
+.centro img{
+  width: 80%;
+  
+}
+.relaxGen{
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgb(235 235 235 / 80%);
+  border-radius: 2rem;
+  
+}
+.relaxIzq{
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
 
+}
+.relaxIzq img{
+  padding: 1rem;
+width: 80%;
+border-radius:4rem ;
+
+}
+.relaxDer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.spoty{
+  margin: 1rem;
+  margin-left: 0;
+}
 @media (max-width: 785px) {
   header {
     flex-wrap: wrap;
@@ -1715,7 +1751,7 @@ body {
   }
 
   .boton3 {
-    
+    text-decoration: none;
     border-radius: 6px;
     font-size: 10px;
     width: 150px;
