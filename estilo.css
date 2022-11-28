@@ -1411,6 +1411,9 @@ border-radius:4rem ;
   margin-left: 0;
 }
 @media (max-width: 785px) {
+  .relaxGen{
+    flex-direction: column;
+  }
   header {
     flex-wrap: wrap;
     flex-direction: column;
@@ -1806,6 +1809,10 @@ border-radius:4rem ;
     background-color: rgb(175, 188, 222);
     border-radius: 1.5rem;
     
+  }
+  .relaxGen{
+    
+    flex-direction: column;
   }
 }
 /*PRESUPUESTO*/
