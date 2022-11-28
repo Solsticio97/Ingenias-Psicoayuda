@@ -279,6 +279,10 @@ header {
 .centerP {
   display: flex;
   align-items: center;
+  width: 50%;
+}
+.centerP form{
+  width: 50%;
 }
 
 .datosPersonales {
@@ -1574,9 +1578,25 @@ border-radius:4rem ;
   .swiper-slide{
     width: 100% !important;
   }
+  .totalCentrar{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    border-radius: 2rem;
+  }
+  .proPrep{
+    padding-left: 0;
+  }
+    .psicoPerf{
+      justify-content: space-evenly;
+    }
 }
 
 @media (max-width: 420px) {
+  .centro{
+    padding: 1rem;
+  }
   header {
     flex-wrap: wrap;
     flex-direction: column;
@@ -1814,6 +1834,12 @@ border-radius:4rem ;
     
     flex-direction: column;
   }
+  .proPrep{
+  padding-left: 0;
+}
+  .psicoPerf{
+    justify-content: space-evenly;
+  }
 }
 /*PRESUPUESTO*/
 .presupuesto{
@@ -1855,6 +1881,8 @@ border-radius:4rem ;
   flex-direction: column;
   align-items: center;
 }
+
+
 .boton5 {
   border-radius: 6px;
   background-color: #f1b3a58f;
