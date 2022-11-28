@@ -1415,6 +1415,10 @@ border-radius:4rem ;
   margin-left: 0;
 }
 @media (max-width: 785px) {
+  .relaxDer{
+    width: 60%;
+    height: 20%;
+  }
   .relaxGen{
     flex-direction: column;
   }
@@ -1607,7 +1611,9 @@ border-radius:4rem ;
     justify-content: center;
     flex-direction: column;
   }
-
+ .relaxDer{    
+    align-items: flex-start;
+    width: 90%;}
   main {
     flex-wrap: wrap;
     flex-direction: column;
@@ -1802,7 +1808,9 @@ border-radius:4rem ;
     border-radius: 1rem;
   }
   .centrar{
-    padding-top: 2rem;
+    
+    padding-top: 0;
+    padding-bottom: 1rem;
   }
   .calendario{
     width: 15rem;
@@ -1832,7 +1840,7 @@ border-radius:4rem ;
     
   }
   .relaxGen{
-    
+    margin: 1rem;
     flex-direction: column;
   }
   .proPrep{
@@ -1903,7 +1911,7 @@ border-radius:4rem ;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  padding-bottom: 2rem
   
  
 }
