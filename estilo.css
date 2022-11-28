@@ -1595,6 +1595,7 @@ border-radius:4rem ;
 
 @media (max-width: 420px) {
   .centro{
+    text-align: center;
     padding: 1rem;
   }
   header {
